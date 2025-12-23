@@ -7,7 +7,8 @@ Compare traditional ML models with deep learning models
 Implement automated audio preprocessing using TextGrid files
 Evaluate performance using accuracy and confusion matrices
 Provide a user-friendly web interface for real-time testing
-------------------------------------------------------------
+
+///
 Folder Structure
 Speaker_ID/
 │
@@ -34,7 +35,9 @@ Speaker_ID/
 ├── app.py
 ├── requirements.txt
 └── README.md
-------------------------------------
+
+
+
 Speech Dataset Creation
 Number of Speakers: 10 (Male & Female)
 Recording Protocol: Same sentence recorded multiple times per speaker
@@ -42,14 +45,16 @@ Environment: Controlled indoor conditions
 Audio Format: WAV
 Sampling Rate: 16 kHz
 Channels: Mono
--------------------------------------
+
+
 Automated Audio Trimming
 Audio segmentation using Praat TextGrid files
 Python-based parsing of TextGrid annotations
 Automatic silence removal and trimming
 Generation of clean, speaker-specific WAV files
 Manual verification of trimmed audio quality
--------------------------
+
+
 Feature Extraction
 Machine Learning Features
 Mel-Frequency Cepstral Coefficients (MFCCs)
@@ -57,7 +62,8 @@ Deep Learning Embeddings
 ECAPA-TDNN
 X-Vector
 These embeddings provide fixed-length speaker representations suitable for verification and identification.
----------------------------------------------------
+
+
 Models Used
 Machine Learning Models
 Support Vector Machine (SVM)
@@ -67,7 +73,8 @@ Deep Learning Models
 ECAPA-TDNN (pre-trained)
 X-Vector (pre-trained)
 ML models are trained using MFCC features, while deep learning models use extracted speaker embeddings.
------------------------------------------------------------------------
+
+
 Evaluation Methodology
 Speaker Identification
 Closed-set identification
@@ -77,13 +84,15 @@ Genuine vs Impostor trials
 Cosine similarity scoring
 Threshold-based decision making
 2×2 confusion matrix visualization
------------------------------------------------------------------------
+
+
 Performance Metrics
 Accuracy
 Confusion Matrix (True Accept, False Accept, False Reject, True Reject)
 ML vs Deep Learning comparison
 Computational efficiency analysis
------------------------------------------------
+
+
 Web Application
 Built using Streamlit
 Supports:
@@ -91,7 +100,10 @@ Audio upload or recording
 ML / Deep Learning model selection
 Real-time speaker identification & verification
 Visual output of results
---------------------------------------------------
+
+
+
+
 
 
 --------------How to Run the Project ---------------
